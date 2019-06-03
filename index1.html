@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Find Giena</title>
+  </head>
+  <body>
+  	<div>
+	  	<div class="ochki" style="font-size: 40px;"><h1>Очки: 100</h1></div>
+	  	<h1 class="V" style="display: none; margin-left: 500px; margin-top: 260px; position: absolute;">Найди Гиену</h1>
+	  	<div style="position: absolute; background-image: url('Antilop.jpg'); margin-left: 600px; height: 200px; width: 150px; background-size: 100% 100%; " class="A summa">
+	  		
+	  	</div>
+	  	<div style="position: absolute; background-image: url('begemot.jpg'); margin-top: 450px; margin-left: 200px; height: 200px;width: 150px; background-size: 100% 100%;" class="B">
+	  		
+	  	</div>
+	  	<div style="position: absolute; background-image: url('elephant.jpg'); margin-top: 200px; margin-left: 1200px; height: 200px; width: 150px; background-size: 100% 100%;" class="E">
+	  		
+	  	</div>
+	  	<div style="position: absolute; background-image: url('giena.jpg'); margin-top: 150px; margin-left: 900px; height: 200px;width: 150px; background-size: 100% 100%;" class="G">
+	  		
+	  	</div>
+	  	<div style="position: absolute; background-image: url('jiraf.jpg'); margin-top: 400px; margin-left: 1000px; height: 200px;width: 150px; background-size: 100% 100%;" class="J">
+	  		
+	  	</div>
+	  	<div style="position: absolute; background-image: url('korova.jpg'); margin-top: 350px; margin-left: 700px; height: 200px;width: 150px; background-size: 100% 100%;" class="K">
+	  		
+	  	</div>
+	  	<div style="position: absolute; background-image: url('lion.jpg'); margin-top: 200px; margin-left: 300px; height: 200px;width: 150px; background-size: 100% 100%;" class="L">
+	  		
+	  	</div>
+	  	<div style="position: absolute; background-image: url('nosorog.jpg'); margin-top: 300px; margin-left: 1380px; height: 200px;width: 150px; background-size: 100% 100%;"class="N">
+	  		
+	  	</div>
+	  	<div style="position: absolute; background-image: url('zebra.jpg'); margin-top: 300px; margin-left: px; height: 200px;width: 150px; background-size: 100% 100%;" class="Z">
+	  	</div>
+	 </div>
+  	<script>
+  		let points = 100;
+  		function func(){
+  			document.querySelector(".A").style.background = "black"
+  			document.querySelector(".B").style.background = "black"
+  			document.querySelector(".E").style.background = "black"
+  			document.querySelector(".G").style.background = "black"
+  			document.querySelector(".J").style.background = "black"
+  			document.querySelector(".K").style.background = "black"
+  			document.querySelector(".L").style.background = "black"
+  			document.querySelector(".N").style.background = "black"
+  			document.querySelector(".Z").style.background = "black"
+  			document.querySelector(".V").style.display = "block"
+  		}
+  		setTimeout(func,5000)
+  			document.querySelector(".A").onclick = function(){
+  				style.backgroundImage = "url('Antilop.jpg')"
+  			}
+  		let x = function(){
+        summa = summa + 3000;
+		    document.querySelector(".summa").innerHTML= summa
+      }
+  	</script>
+  </body>
+  </html>
